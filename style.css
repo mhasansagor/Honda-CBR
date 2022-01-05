@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@1,200&family=Oswald:wght@200&display=swap');
+
+*{
+    font-family: 'Lato',
+    sans-serif;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-family: 'Oswald',
+    sans-serif;
+    margin: 0%;
+}
+
+/* banner paragraph getting space */
+.para{
+    width: 350px;
+}
+/* custom background color create */
+.myBg{
+    background-color: #264653;
+}
+/* custom button create */
+.myBtn{
+    background-color: #E76F51;
+    padding: .25rem 2rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/* button create for latest news section */
+.myBtnR{
+    color:#E76F51;
+    padding: .25rem 2rem;
+    border: 1px solid #E76F51;
+    border-radius: .25rem;
+}
+
+.myBtnR:hover{
+    color: white;
+    background-color: #E76F51;
+    padding: .25rem 2rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.categories img {
+    width: 270px;
+}
+/* image filter crate */
+.fl{
+    width: 270px;
+    filter: grayscale(100%);
+}
+/* happy client class image size declare */
+.hClient img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+/* happy client class text declare */
+.hclFtr{
+    text-align: center;
+}
+/* happy client class declare */
+.hclFtr p{
+    margin-bottom: 0;
+}
+footer img{
+    width: 90px;
+}
+
+footer span{
+    padding: 0px 3px;    
+}
+
+.categories p{
+    text-align: center;
+}
+/* text color creation */
+.clr{
+    color: #E76F51;
+}
+
+/* latest news image padding */
+.lNews img{
+    padding: 1rem 1rem;
+}
